@@ -100,9 +100,49 @@ textarea {
 
 .header1{background: rgba(26,188,156 ,1);}
 .header2{background: rgba(26,188,156 ,1);height: 30px;}
-.pie{background: rgba(26,188,156 ,1);height: 30px;}
+.pie{background: rgba(26,188,156 ,1);
+ font-size: 30px;
+ color: white;
+  text-align: center;
+}
 
 
+
+
+.content{
+  background: rgba(26,188,156 ,1);
+ 
+  width:49%;
+
+  float: left;
+}
+
+.iconwasp{
+  
+  color: white;
+  font-size: 35px;
+  
+  
+}
+.icon:hover{
+  background: white;
+  color:lightblue;
+}
+.iconmail{
+  
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  
+}
+.icontdm:hover{
+  background: red;
+  color:black;
+}
+.desc-txt{
+ color: white;
+ text-align: center;
+}
 
 
 
