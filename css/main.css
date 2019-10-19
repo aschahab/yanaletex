@@ -98,7 +98,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.header1{background: rgba(26,188,156 ,1);}
+.header1{background: rgba(26,188,156 ,1);
+  
+}
+
+.encabezado{float: left;}
+.enctel{padding-top: 2.5%;}
+.imglogo{ text-align: left; width: 30%;padding-top: 1.5%;padding-left: 3%; }
+.nofloat{clear: both;}
 .header2{background: rgba(26,188,156 ,1);height: 30px;}
 .pie{background: rgba(26,188,156 ,1);
  font-size: 30px;
@@ -144,18 +151,81 @@ textarea {
  text-align: center;
 }
 
+#mainNav li{
+  display:inline-block;
+  padding: 2%;
+}
+
+html{scroll-behavior:smooth;}/*para hecer mas suave el scroleado y se lo coloca siempre dentro de html*/
 
 
 
+#sabanas{
+background: olive;
+padding: 2%;
+height: 60vh;
+padding-top: 120px;
 
 
+ /*vh es viewport heigth, vw vieport widht, toma el area visible de 0 a 100%. 
+si pongo vh 100% toma el alto completo de la pantalla para el elemento*/
+}
 
+#cubres{
+  background: olive;
+padding: 2%;
+height: 60vh;
+padding-top: 120px;
+}
 
+#fraz{
+background: olive;
+padding: 2%;
+height: 60vh;
+padding-top: 120px;
 
+}
 
+#alm{
+background: olive;
+padding: 2%;
+height: 60vh;
+padding-top: 120px;
 
+}
 
+#bat{
+background: olive;
+padding: 2%;
+height: 60vh;
+padding-top: 120px;
 
+}
+.fondo{
+
+  background:red;
+background-size: cover;
+}
+
+@keyframes caballo{
+  0%{background-position: 0px;}
+  100%{background-position: 1500px;}/*es el tamaño de la imagen en px*/
+}
+
+.caballo{
+  animation-name: caballo;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(10);
+  background: url("img/envios.jpg");
+  
+  height: 200px;
+  width: 200px;
+}
+
+.bloqueo{
+  display: inline-block;
+}
 
 
 
