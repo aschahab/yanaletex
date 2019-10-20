@@ -1,4 +1,5 @@
-<!doctype html>
+
+  <!doctype html>
 <html class="no-js" lang="">
 
 <head>
@@ -112,20 +113,20 @@
 
 
 <div class="col-sm">
-<form>
+<form action="mailto:yanaletex@gmail.com" method="post" >
 
     <div class="form-group">
-        <label for="exampleFormControlInput0">Nombre</label>
-        <input type="text" class="form-control" placeholder="Ingrese nombre" required="">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingrese nombre" required="" name="nombre">
     </div>
     <div class="form-group">
-        <label for="exampleFormControlInput1">Email </label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="sumail@mail.com" required="">
+        <label for="mail">Email </label>
+        <input type="email" class="form-control" id="mail" placeholder="sumail@mail.com" required="" name="mail">
     </div>
   
     <div class="form-group">
-        <label for="exampleFormControlSelect2">Provincia</label>
-            <select multiple class="form-control" id="exampleFormControlSelect2">
+        <label for="provincia">Provincia</label>
+            <select multiple class="form-control" id="provincia" name="provincia">
               <option >Buenos Aires</option>
               <option >C.A.B.A.</option>
               <option >Catamarca</option>
@@ -153,8 +154,8 @@
             </select>
     </div>
     <div class="form-group">
-        <label for="exampleFormControlTextarea1">Consulta</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="consulta">Consulta</label>
+        <textarea class="form-control" id="consulta" rows="3" name="consulta"></textarea>
     </div>
 
     <div><span>Institución</span>
@@ -171,16 +172,16 @@
         <label class="form-check-label" for="exampleRadios3"> Hogar  </label>
     </div>
     <div class="form-check">
-        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="hotel" checked>
-        <label class="form-check-label" for="exampleRadios1"> Hotel  </label>
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="hotel" checked>
+        <label class="form-check-label" for="exampleRadios4"> Hotel  </label>
     </div>
     <div class="form-check">
-        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="sanatorio" checked>
-        <label class="form-check-label" for="exampleRadios1"> Sanatorio  </label>
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="sanatorio" checked>
+        <label class="form-check-label" for="exampleRadios5"> Sanatorio  </label>
     </div>
     <div class="form-check">
-        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="otro" checked>
-        <label class="form-check-label" for="exampleRadios1">  Otro  </label>
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="otro" checked>
+        <label class="form-check-label" for="exampleRadios6">  Otro  </label>
     </div>
     <hr>
     </div>
@@ -188,9 +189,11 @@
         <input type="checkbox" name="suscripcion" id="check1" value="ok" checked>
         <label for="check1">Deseo recibir informacion</label>
     </div>
-    <div class="form-group">
-        <input type="submit" value="contactarse" > 
+    <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Sign in</button>
     </div>
+  </div>
 </form>
  </div>
 <div class="col-sm">
