@@ -247,8 +247,30 @@ padding-top: 120px;
 
 }
 
+#cub_col{
+
+background: rgb(64, 224, 208);
+padding: 2%;
+text-align: center;
+padding-top: 120px;
 
 
+ }
+
+#fun_ent{
+  background:RGB(176, 224, 230);
+padding: 2%;
+text-align: center;
+padding-top: 120px;
+}
+
+#cub_al{
+background: RGB(224, 255, 255);
+padding: 2%;
+text-align: center;
+padding-top: 120px;
+
+}
 
 
 
