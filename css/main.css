@@ -294,7 +294,16 @@ padding-top: 120px;
   position: fixed; /* Hacemos que la cabecera tenga una posición fija */
 }
 
-
+#main-header_cont {
+  background: white;
+  color: black;
+  height: 50px;
+  z-index: 20000000;
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+  left: 0; /* Posicionamos la cabecera al lado izquierdo */
+  top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
 
 body {
   margin: 0;
@@ -318,7 +327,24 @@ body {
   line-height: 1.5em;
 }
 
+.otro_enc_cont{
+   margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  background: white; 
+  font-size: 1em;
+  line-height: 1.5em;
+}
+#cuerp_cont{
 
+background: white;
+padding: 2%;
+
+padding-top: 120px;
+
+
+ }
 
 /* ==========================================================================
    Helper classes
