@@ -166,7 +166,7 @@ html{scroll-behavior:smooth;}/*para hecer mas suave el scroleado y se lo coloca 
 background: rgb(64, 224, 208);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 
 
  }
@@ -175,14 +175,14 @@ padding-top: 150px;
   background:rgb(176, 224, 230);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 }
 
 #fraz{
 background: rgb(224, 255, 255);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 
 }
 
@@ -190,7 +190,7 @@ padding-top: 150px;
 background: rgb(240, 248, 255);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 
 }
 
@@ -198,7 +198,7 @@ padding-top: 150px;
 background: rgb(26,188,156);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 
 }
 
@@ -206,7 +206,7 @@ padding-top: 150px;
 background: rgb(0, 206, 209);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 
 }
 
@@ -227,7 +227,7 @@ text-align: center;
 background: rgb(64, 224, 208);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 
 
  }
@@ -236,14 +236,14 @@ padding-top: 150px;
   background:rgb(176, 224, 230);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 }
 
 #fajas{
 background: rgb(224, 255, 255);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 
 }
 
@@ -251,7 +251,7 @@ padding-top: 150px;
 background: rgb(240, 248, 255);
 padding: 2%;
 
-padding-top: 150px;
+padding-top: 200px;
 
 }
 
@@ -260,7 +260,7 @@ padding-top: 150px;
 background: rgb(64, 224, 208);
 padding: 2%;
 text-align: center;
-padding-top: 150px;
+padding-top: 200px;
 
 
  }
@@ -269,22 +269,24 @@ padding-top: 150px;
   background:rgb(176, 224, 230);
 padding: 2%;
 text-align: center;
-padding-top: 150px;
+padding-top: 200px;
 }
 
 #cub_al{
 background: rgb(224, 255, 255);
 padding: 2%;
 text-align: center;
-padding-top: 150px;
+padding-top: 200px;
 
 }
 
 #main-header {
   background: #333;
   margin-top: 0;
-  color: blue;
-  height: 150px;
+  font-family: cursive;
+  font-size: 20px;
+  color: white;
+  height: 200px;
   z-index: 20000000;
   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
   left: 0; /* Posicionamos la cabecera al lado izquierdo */
