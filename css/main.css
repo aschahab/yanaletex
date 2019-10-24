@@ -166,47 +166,47 @@ html{scroll-behavior:smooth;}/*para hecer mas suave el scroleado y se lo coloca 
 background: rgb(64, 224, 208);
 padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 
 
  }
 
 #cubres{
-  background:RGB(176, 224, 230);
+  background:rgb(176, 224, 230);
 padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 }
 
 #fraz{
-background: RGB(224, 255, 255);
+background: rgb(224, 255, 255);
 padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 
 }
 
 #alm{
-background: RGB(240, 248, 255);
+background: rgb(240, 248, 255);
 padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 
 }
 
 #tyt{
-background: RGB(26,188,156);
+background: rgb(26,188,156);
 padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 
 }
 
 #bat{
 background: rgb(0, 206, 209);
-padding: 1%;
+padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 
 }
 
@@ -227,31 +227,31 @@ text-align: center;
 background: rgb(64, 224, 208);
 padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 
 
  }
 
 #pant{
-  background:RGB(176, 224, 230);
+  background:rgb(176, 224, 230);
 padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 }
 
 #fajas{
-background: RGB(224, 255, 255);
+background: rgb(224, 255, 255);
 padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 
 }
 
 #zap{
-background: RGB(240, 248, 255);
+background: rgb(240, 248, 255);
 padding: 2%;
 
-padding-top: 120px;
+padding-top: 150px;
 
 }
 
@@ -260,35 +260,36 @@ padding-top: 120px;
 background: rgb(64, 224, 208);
 padding: 2%;
 text-align: center;
-padding-top: 120px;
+padding-top: 150px;
 
 
  }
 
 #fun_ent{
-  background:RGB(176, 224, 230);
+  background:rgb(176, 224, 230);
 padding: 2%;
 text-align: center;
-padding-top: 120px;
+padding-top: 150px;
 }
 
 #cub_al{
-background: RGB(224, 255, 255);
+background: rgb(224, 255, 255);
 padding: 2%;
 text-align: center;
-padding-top: 120px;
+padding-top: 150px;
 
 }
 
 #main-header {
   background: #333;
+  margin-top: 0;
   color: blue;
-  height: 160px;
+  height: 150px;
   z-index: 20000000;
   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
   left: 0; /* Posicionamos la cabecera al lado izquierdo */
   top: 0; /* Posicionamos la cabecera pegada arriba */
-  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  position: sticky; /* Hacemos que la cabecera tenga una posición fija */
 }
 
 #main-header2 {
@@ -299,7 +300,7 @@ padding-top: 120px;
   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
   left: 0; /* Posicionamos la cabecera al lado izquierdo */
   top: 0; /* Posicionamos la cabecera pegada arriba */
-  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  position: sticky; /* Hacemos que la cabecera tenga una posición fija */
 }
 
 #main-header_cont {
@@ -310,7 +311,7 @@ padding-top: 120px;
   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
   left: 0; /* Posicionamos la cabecera al lado izquierdo */
   top: 0; /* Posicionamos la cabecera pegada arriba */
-  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  position: sticky; /* Hacemos que la cabecera tenga una posición fija */
 }
 
 body {
